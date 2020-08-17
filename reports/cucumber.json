@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-14T05:15:31.243Z",
+        "line": 2,
+        "name": "Search from google",
+        "description": "",
+        "id": "google-home-page;search-from-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8852000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to Google",
+            "match": {
+              "location": "steps.GoogleSteps.user_navigates_to_Google()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Google Home Page",
+    "description": "",
+    "id": "google-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Google.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-14T05:15:40.146Z",
+        "line": 2,
+        "name": "Amazon Home Page",
+        "description": "",
+        "id": "amazon-automation;amazon-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7838000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User navigates to Amazon Home page",
+            "match": {
+              "location": "steps.AmazonSteps.user_navigates_to_Amazon_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon automation",
+    "description": "",
+    "id": "amazon-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazon.feature",
+    "tags": []
+  }
+]

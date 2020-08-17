@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.105">
+<testcase classname="Google Home Page" name="Search from google" time="8.859">
+<system-out><![CDATA[Given user navigates to Google..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon automation" name="Amazon Home Page" time="7.839">
+<system-out><![CDATA[Given User navigates to Amazon Home page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
